@@ -1,0 +1,23 @@
+[project]
+name = "continew-admin"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = ""},
+]
+dependencies = [
+    "django>=5.0.6",
+    "djangorestframework>=3.15.1",
+    "setuptools>=70.0.0",
+    "psycopg2==2.9.8",
+    "django-cors-headers>=4.3.1",
+    "drf-spectacular>=0.27.2",
+    "djangorestframework-simplejwt>=5.3.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "Apache License Version 2.0"}
+
+
+[tool.pdm]
+distribution = false
